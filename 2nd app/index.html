@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weight Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Weight Convertor</h1>
+    
+    <div id="enterWeight">
+        <input type="number" name="weight" title="weight" placeholder="enter weight...." id="weight">
+        <select name="weightChosen" id="weightChosen" size="1">
+            <option value="kilograms">Kilogram</option>
+            <option value="grams">Grams</option>
+            <option value="pounds">Pounds</option>
+            <option value="tonnes">Tonnes</option>
+            <option value="ounces">Ounces</option>
+        </select>
+    </div>
+
+    <div id="resultWeight">
+        <div id="weightResult"></div>
+        <div id="results">
+            <select name="weightSelected" id="weightSelected" size="1">
+                <option value="kilograms">Kilogram</option>
+                <option value="grams">Grams</option>
+                <option value="pounds">Pounds</option>
+                <option value="tonnes">Tonnes</option>
+                <option value="ounces">Ounces</option>
+            </select>  
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
